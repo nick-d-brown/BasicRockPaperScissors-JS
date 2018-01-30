@@ -1,0 +1,2 @@
+# BasicRockPaperScissors-JS
+This is a rock, paper, scissors game that uses some basic javascript logic. The player first chooses whether to pick rock, paper, or scissors first, and then the computer will randomly choose as well. Once the two have chosen, the score will change on the scoreboard. There is no limit to how many times the user can play the computer and the score will only reset after the user refreshes the page. The "r", "p", and "s" keys are used to determine whether the player picks rock, paper, or scissors. 
