@@ -16,7 +16,7 @@ var compKey;
 
 
 document.onkeyup = function gameStart() {
-Name
+
     if (event.key === "r" || event.key === "p" || event.key === "s") {
         userKey = event.key;
 

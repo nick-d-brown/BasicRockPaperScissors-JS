@@ -27,37 +27,39 @@
                         
                     </div>
                 </div>
-                <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/Rock-paper-scissors.svg" alt=""> -->
-                 <!-- By Enzoklop (Own work) [CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)], 
-                    via Wikimedia Commons -->
             </div>
         </div>
         <div class="container">
-            
-            <h2>To play the game please press "r", "p", or "s" on your keyboard to select either rock, paper, or scissors.</h2>
-            <div class="choice-board">
-                <p>Your choice was: 
-                    <span id="userKeyName">...nothing</span>
-                </p>
-                <p>The computer's choice was: 
-                    <span id="compKeyName">...nothing</span>
-                </p>
+            <div class="row">
+                <div class="col-sm-12 instructions">
+                <h2>To play the game please press "r", "p", or "s" on your keyboard to select either rock, paper, or scissors.</h2>
+                </div>
             </div>
-            <div class="score-board">
-                <p>Wins: 
-                    <span id="win">0</span>
-                </p>
-                <p>Losses: 
-                    <span id="loss">0</span>
-                </p>
-                <p>Ties: 
-                    <span id="tie">0</span>
-                </p>
+            <div class="row">
+                <div class="col-sm-5 game-board">
+                    <p>Your choice was: 
+                        <span id="userKeyName">...nothing</span>
+                    </p>
+                    <p>The computer's choice was: 
+                        <span id="compKeyName">...nothing</span>
+                    </p>
+                </div>
+                <div class="col-sm-2 fix"></div>
+                <div class="col-sm-5 score-board">
+                    <p>Wins: 
+                        <span id="win">0</span>
+                    </p>
+                    <p>Losses: 
+                        <span id="loss">0</span>
+                    </p>
+                    <p>Ties: 
+                        <span id="tie">0</span>
+                    </p>
+                </div>
             </div>
         </div>
 
-        <!-- We have to put this at the end of our document to ensure the user-text
-         span exists when we try to access it. -->
+       
         <script type="text/javascript" src="logic.js"></script>
     </body>
 
