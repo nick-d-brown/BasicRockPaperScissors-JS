@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Events!</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+
+</head>
+
+<body>
+
+    <body>
+        <div class="container">
+            <h1>Rock, Paper, Scissors</h1>
+            <div class="choice">
+                <p>Your choice was:
+                    <span id="userKeyName">...nothing</span>
+                </p>
+                <p>The computer's choice was:
+                    <span id="compKeyName">...nothing</span>
+                </p>
+            </div>
+            <div class="score">
+                <p>Wins:
+                    <span id="win">0</span>
+                </p>
+                <p>Losses:
+                    <span id="loss">0</span>
+                </p>
+                <p>Ties:
+                    <span id="tie">0</span>
+                </p>
+            </div>
+        </div>
+
+        <!-- We have to put this at the end of our document to ensure the user-text
+         span exists when we try to access it. -->
+        <script type="text/javascript" src="logic.js"></script>
+    </body>
+
+</html>
