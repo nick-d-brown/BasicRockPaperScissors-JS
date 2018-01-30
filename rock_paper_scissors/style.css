@@ -1,0 +1,79 @@
+body {
+    
+
+}
+
+.jumbotron {
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1505678261036-a3fcc5e884ee?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6bfc7415d07a1f8aad68c740f4f301aa&auto=format&fit=crop&w=2100&q=80);
+        /* image by Ashton Bingham @ashtonbingham from upsplash.com */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+.jumbo-styling {
+    text-align: center;
+    color: rgb(29, 29, 29);
+    text-shadow: rgb(104, 104, 104) 0.3em 0.3em 0.3em;
+    
+}
+
+.background-control-red {
+    background-color: red;
+    width: 50%;
+    margin: 0 25%;
+    border-radius: 2%;
+    font-weight: 800;
+
+}
+.background-control-green {
+    background-color: green;
+    width: 50%;
+    margin: 0 25%;
+    border-radius: 2%;
+    font-weight: 800;
+
+}
+.background-control-blue {
+    
+    width: 20%;
+    margin: 0px 40%;
+    padding-top: 1%;
+    border-radius: 2%;
+  
+
+}
+.background-control-red:hover {
+    background-color: red;
+    animation: shake .6s;
+    animation-iteration-count: infinite;
+}
+.background-control-green:hover {
+    background-color: green;
+    animation: shake .6s;
+    animation-iteration-count: infinite;
+}
+.background-control-blue:hover {
+
+    animation: shake .6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+
+    0% { transform:  rotate(0deg); }
+
+    25% { transform:  rotate(10deg); }
+
+    50% { transform:  rotate(0deg); }
+    
+    75% { transform:  rotate(-10deg); }
+    
+    100%{ transform:  rotate(0deg); }
+    }
+
+.down-arrow-style {
+    font-size:7em;
+}

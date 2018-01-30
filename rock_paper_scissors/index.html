@@ -3,33 +3,54 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Events!</title>
+    <title>Rock|Paper|Scissors</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
 
 <body>
 
     <body>
+        <div class="jumbotron">
+            <div class="fluid-container">
+                <div class="jumbo-styling">
+                    <div class="background-control-red">
+                        <h1>Rock, Paper, Scissors</h1>
+                    </div>
+                    <div class="background-control-green">
+                        <h2>Scroll down to play!</h2>
+                    </div>
+                    <div class="background-control-blue">
+                        <p><span class="glyphicon glyphicon-arrow-down down-arrow-style"></span></p>
+                        
+                    </div>
+                </div>
+                <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/6/67/Rock-paper-scissors.svg" alt=""> -->
+                 <!-- By Enzoklop (Own work) [CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)], 
+                    via Wikimedia Commons -->
+            </div>
+        </div>
         <div class="container">
-            <h1>Rock, Paper, Scissors</h1>
-            <div class="choice">
-                <p>Your choice was:
+            
+            <h2>To play the game please press "r", "p", or "s" on your keyboard to select either rock, paper, or scissors.</h2>
+            <div class="choice-board">
+                <p>Your choice was: 
                     <span id="userKeyName">...nothing</span>
                 </p>
-                <p>The computer's choice was:
+                <p>The computer's choice was: 
                     <span id="compKeyName">...nothing</span>
                 </p>
             </div>
-            <div class="score">
-                <p>Wins:
+            <div class="score-board">
+                <p>Wins: 
                     <span id="win">0</span>
                 </p>
-                <p>Losses:
+                <p>Losses: 
                     <span id="loss">0</span>
                 </p>
-                <p>Ties:
+                <p>Ties: 
                     <span id="tie">0</span>
                 </p>
             </div>
